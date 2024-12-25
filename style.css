@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+
+input{
+    width: 90%;
+    padding: 10px;
+}
+
+#searchBtn{
+    width: 9%;
+    padding: 10px 0;
+    background-color: dodgerblue;
+    color: #FFF;
+    font-size:16px;
+    font-weight: bold;
+    border: none;
+}
+
+.productImg{
+    max-width: 270px;
+    max-height:200px;
+    background-size: contain;
+    margin-bottom: 15px;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cards .card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.productsDesc{
+    margin-top: 20px;
+}
+
+.productsTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productsTitle h2{
+    color: red;
+}
+
+.card button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px 0;
+    border-radius: 8px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+  }
+
+  .star.active {
+    color: gold;
+  }
